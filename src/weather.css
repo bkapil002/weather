@@ -1,0 +1,49 @@
+.container {
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(49, 49, 49);
+    width: 33%;
+    border-radius: 20px;
+    background: linear-gradient(to top, #4F46E5, #A55EEA);
+}
+
+.container form {
+    margin-top: 10px;
+}
+
+.container form input {
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 15px;
+}
+.container form input:hover {
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.container form button {
+    border-radius: 8px;
+    background-color: #4e46e500;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.container form button i {
+    font-size: 20px;
+}
+
+.Temperature {
+    font-size: 25px;
+    font-weight: 500;
+}
